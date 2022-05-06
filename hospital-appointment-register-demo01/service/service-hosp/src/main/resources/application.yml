@@ -1,0 +1,20 @@
+server:
+  port: 8201 # 服务端口
+spring:
+  application:
+    name: service-hosp # 服务名
+  profiles:
+    active: dev # 环境设置：dev、test、prod
+
+  datasource: # mysql 数据库连接
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/appointment_hosp?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: root
+
+  jackson: # 返回 json 的全局时间格式
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+mybatis-plus:
+  mapper-locations: classpath:pers/zmj/hospital/mapper/xml/*.xml # 配置 mapper.xml文件的路径

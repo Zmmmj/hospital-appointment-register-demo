@@ -50,8 +50,9 @@ Git
 
 #### 业务流程
 
-![尚医通业务流程](.\开发文档\images\尚医通业务流程.png)
+![尚医通业务流程](https://user-images.githubusercontent.com/87632110/167078771-63bdd09e-62ff-4ffa-a88f-2b56b29b59b8.png)
+
 
 #### 服务架构
 
-![尚医通架构图](.\开发文档\images\尚医通架构图.png)
+![尚医通架构图](https://user-images.githubusercontent.com/87632110/167078792-c212b256-8aea-4b7b-9cbc-802e2fff7563.png)
